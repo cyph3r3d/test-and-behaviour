@@ -123,7 +123,6 @@ Scenario: Search by available
     And I should see "Big Mac" in the results
     And I should see "Sheets" in the results
     And I should not see "Shoes" in the results
-
 Scenario: Search by name
     When I visit the "Home Page"
     And I set the "Name" to "Hat"
